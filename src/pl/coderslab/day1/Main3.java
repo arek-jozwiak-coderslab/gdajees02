@@ -19,7 +19,7 @@ public class Main3 {
         }
     }
 
-
+//https://github.com/arek-jozwiak-coderslab
     public static List<Integer> removeDivider(List<Integer> list, int divider) {
         Iterator<Integer> it = list.iterator();
         while (it.hasNext()) {
