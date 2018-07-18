@@ -11,20 +11,27 @@ public class Main7 {
         Map<String, String> map = getMap();
         Set<String> keys = map.keySet();
         Scanner scanner = new Scanner(System.in);
-        int result=0;
-        for (String key : keys ) {
+        int result = 0;
+        for (String key : keys) {
             System.out.println("Podaj przeciwieństwo...");
             System.out.println(key);
 
-            if(scanner.nextLine().equals(map.get(key))) {
+            if (scanner.nextLine().equals(map.get(key))) {
                 result++;
             }
         }
         System.out.println("Result = " + result);
+
+
+        boolean some = false;
+
+        if (some) {
+
+        }
     }
 
 
-    public static Map<String, String> getMap(){
+    public static Map<String, String> getMap() {
         Map<String, String> map = new HashMap<>();
         map.put("biały", "czarny");
         map.put("ciepło", "zimno");
