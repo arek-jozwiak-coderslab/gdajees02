@@ -1,4 +1,4 @@
-package pl.coderslab.web;
+package pl.coderslab.day2;
 
 public class Calculator {
 

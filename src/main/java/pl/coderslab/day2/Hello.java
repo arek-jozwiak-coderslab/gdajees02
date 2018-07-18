@@ -1,6 +1,4 @@
-package pl.coderslab.web;
-
-import org.apache.commons.lang3.StringUtils;
+package pl.coderslab.day2;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

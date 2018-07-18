@@ -1,4 +1,4 @@
-package pl.coderslab.web;
+package pl.coderslab.day3;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,4 +1,4 @@
-package pl.coderslab.web;
+package pl.coderslab.day2;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,11 +7,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/Servlet11")
-public class Servlet11 extends HttpServlet {
+@WebServlet(urlPatterns = "/some")
+public class ServletTest extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Hello First Servlet");
+
     }
 }
