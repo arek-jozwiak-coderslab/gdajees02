@@ -30,7 +30,7 @@ public class ServletMvc extends HttpServlet {
 
         request.setAttribute("products", products);
 
-        getServletContext().getRequestDispatcher("/mvc.jsp")
+        getServletContext().getRequestDispatcher("/mvca.jsp")
                 .forward(request, response);
     }
 }
