@@ -20,8 +20,6 @@ public class Sess01Get extends HttpServlet {
         } else {
             int counter = (int) session.getAttribute("counter") + 1;
             session.setAttribute("counter", counter);
-
-
         }
     }
 }
