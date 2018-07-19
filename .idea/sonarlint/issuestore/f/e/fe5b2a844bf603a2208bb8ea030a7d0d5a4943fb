@@ -1,0 +1,19 @@
+
+Nsquid:S1854."7Remove this useless assignment to local variable "itl".(–œºé
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+T
+squid:S106$"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ƒÚÿ£øÿÿÿÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ËªÐ±
+?squid:S1481."(Remove this unused "itl" local variable.(–œºé
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÀÕÿÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ—Þ…
+squid:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›ªØüÿÿÿÿÿ
+squid:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ÉäÅøÿÿÿÿ
+T
+squid:S106 "9Replace this use of System.out or System.err by a logger.(”œž¾øÿÿÿÿ
