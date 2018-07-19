@@ -6,12 +6,12 @@
     <title>Title</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="../header.jsp" %>
 <p>Godziny na złotówki:</p>
 Ilość godzin = ${param.h} to  ${param.h * 3.5} złotowek
 
 <c:out value="${role}" default="guest"/>
 
-<%@ include file="footer.jsp" %>
+<%@ include file="../footer.jsp" %>
  </body>
 </html>

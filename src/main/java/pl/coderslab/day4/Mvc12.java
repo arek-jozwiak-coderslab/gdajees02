@@ -16,7 +16,7 @@ public class Mvc12 extends HttpServlet {
         int end = Integer.parseInt(request.getParameter("end")) + 10;
         request.setAttribute("start", start);
         request.setAttribute("end", end);
-        getServletContext().getRequestDispatcher("/aa.jsp")
+        getServletContext().getRequestDispatcher("/web/mvca.jsp")
                 .forward(request, response);
     }
 }
