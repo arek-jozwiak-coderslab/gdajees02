@@ -12,6 +12,7 @@
     <title>Title</title>
 </head>
 <body>
+<h1>Books</h1>
 <c:forEach var="book" items="${books}">
     ${book.title} - ${book.author} <br/>
 </c:forEach>
