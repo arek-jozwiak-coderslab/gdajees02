@@ -35,6 +35,7 @@ public class Sess02 extends HttpServlet {
             grades.add(grade);
         }
         session.setAttribute("grades", grades);
+        request.setAttribute("grades", grades);
         doGet(request, response);
 
     }
